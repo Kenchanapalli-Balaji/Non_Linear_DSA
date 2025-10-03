@@ -45,8 +45,6 @@ public class Pre_Order_Traversal
 	//////////////////////////////////////////// Iterative Method //////////////////////
 	public void preorder(Node root)
 	{
-		if(root==null)
-			return;
 		Stack<Node> stk=new Stack<>();
 		stk.push(root);
 		while(!stk.isEmpty())

@@ -46,7 +46,7 @@ public class In_Order_Traversal
 	{
 		Stack<Node> stk=new Stack<>();
 		Node temp=root;
-		while(!stk.isEmpty() || temp!=null)
+ 		while(!stk.isEmpty() || temp!=null)
 		{
 			if(temp!=null)
 			{
